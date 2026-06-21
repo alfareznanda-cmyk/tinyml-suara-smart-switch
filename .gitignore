@@ -1,0 +1,20 @@
+# Arduino IDE
+*.hex
+*.elf
+*.bin
+*.map
+build/
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+
+# Library hasil export Edge Impulse (besar & spesifik per model, jangan di-commit)
+proyek_Tinyml_suara_inferencing.zip
+proyek_Tinyml_suara_inferencing/
