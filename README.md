@@ -30,9 +30,9 @@ Selain inferensi suara dasar, proyek ini menambahkan dua lapisan keandalan:
 | SCK (BCK) | GPIO 32 | Kabel **putih** |
 | WS | GPIO 25 | Kabel **kuning** |
 | SD | GPIO 33 | Kabel **hijau** |
-| VDD | 3.3V | |
-| GND | GND | |
-| L/R | GND (channel kiri) | |
+| VDD | 3.3V | | Kabel **biru** |
+| GND | GND | | Kabel **hitam** |
+| L/R | GND (channel kiri) | | kabel **oranye** |
 
 ### Wiring LED
 
@@ -85,7 +85,7 @@ Selain inferensi suara dasar, proyek ini menambahkan dua lapisan keandalan:
 3. Klik **Upload** di Arduino IDE.
 4. Setelah upload selesai, buka **Serial Monitor** (baud rate `115200`).
 5. Sketch akan menunggu 2 detik lalu mulai merekam dan melakukan inferensi terus-menerus.
-6. Ucapkan kata kunci ("Nyala" / "Mati") di dekat mikrofon. Di Serial Monitor kamu akan melihat:
+6. Ucapkan kata kunci ("On" / "Off") di dekat mikrofon. Di Serial Monitor kamu akan melihat:
    - Nilai `Energy` dan `ZCR` tiap window.
    - Hasil prediksi tiap label beserta confidence score.
    - Status voting; LED hanya akan menyala/mati setelah hasil voting stabil (≥60% dari 5 prediksi terakhir adalah label yang sama).
