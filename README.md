@@ -30,9 +30,9 @@ Selain inferensi suara dasar, proyek ini menambahkan dua lapisan keandalan:
 | SCK (BCK) | GPIO 32 | Kabel **putih** |
 | WS | GPIO 25 | Kabel **kuning** |
 | SD | GPIO 33 | Kabel **hijau** |
-| VDD | 3.3V | | Kabel **biru** |
-| GND | GND | | Kabel **hitam** |
-| L/R | GND (channel kiri) | | kabel **oranye** |
+| VDD | 3.3V | Kabel **biru** |
+| GND | GND | Kabel **hitam** |
+| L/R | GND (channel kiri) | kabel **oranye** |
 
 ### Wiring LED
 
