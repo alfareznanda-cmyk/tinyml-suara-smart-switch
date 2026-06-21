@@ -116,4 +116,4 @@ tinyml-suara-smart-switch/
 
 ## Lisensi
 
-Belum ditentukan — tambahkan file `LICENSE` sesuai kebutuhan (mis. MIT) jika proyek ini akan dipublikasikan.
+Belum ditentukan. 
