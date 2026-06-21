@@ -1,6 +1,6 @@
 # TinyML Suara - Smart Switch (ESP32 + Edge Impulse)
 
-Proyek ini menggunakan **TinyML (Edge Impulse)** pada **ESP32** untuk mengenali perintah suara ("Nyala" / "Mati") dari mikrofon I2S, lalu menyalakan/mematikan LED sebagai simulasi saklar lampu pintar (voice-controlled smart switch).
+Proyek ini menggunakan **TinyML (Edge Impulse)** pada **ESP32** untuk mengenali perintah suara ("on" / "off") dari mikrofon I2S, lalu menyalakan/mematikan LED sebagai simulasi saklar lampu pintar (voice-controlled smart switch).
 
 Selain inferensi suara dasar, proyek ini menambahkan dua lapisan keandalan:
 - **Gerbang energi (RMS Energy) + Zero-Crossing Rate (ZCR)** untuk menyaring window hening/noise sebelum masuk ke classifier, sehingga menghemat komputasi dan mengurangi false trigger.
