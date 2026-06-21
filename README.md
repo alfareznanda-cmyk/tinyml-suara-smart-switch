@@ -32,7 +32,7 @@ Selain inferensi suara dasar, proyek ini menambahkan dua lapisan keandalan:
 | SD | GPIO 33 | Kabel **hijau** |
 | VDD | 3.3V | Kabel **biru** |
 | GND | GND | Kabel **hitam** |
-| L/R | GND (channel kiri) | kabel **oranye** |
+| L/R | GND (channel kiri) | Kabel **oranye** |
 
 ### Wiring LED
 
